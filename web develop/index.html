@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>A-Z Shopping</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kufam:wght@800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="favicon.ico">
+        <script src="./js/jquerry.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    <div class="container">
+      <p>A-Z Shopping Cart!</p>
+      <img src="img.png.jpg" alt="shopping">
+        <h1 id="login">Login </h1><br>
+        <form action="shopping-cart.html" method="GET"  >
+            <label id="mob"><b>Mobile</b></label><br>
+            <input type="text" name="mobile number" id="mobile" placeholder="Mobile Number">
+            <br><br>
+            <label id="pass"><b>Password</b></label><br>
+            <input type="password" name="password" id="paswd" placeholder="Enter your password"><br>
+            <label id="forget">forget password?</label><br>
+            <input type="submit" id="submit" value="Login"><br><br>
+            <label onclick="signup()" id="signup">Dont have Account <span id="sign"> Signup!</span></label>
+            <script>
+                function signup(){
+                    location.replace("signup.html");
+                }
+            </script>
+        </form>
+    </div>
+
+
+    </body>
+</html>

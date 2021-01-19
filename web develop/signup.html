@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title>A-Z Shopping</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./js/jquerry.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="login">Signup </h1><br>
+        <form action="shopping-cart.html" method="GET">
+            <label id="mob">Mobile</label><br>
+            <input type="text" name="mobile number" id="mobile" placeholder="Mobile Number">
+            <br><br>
+            <label id="pass">Password</label><br>
+            <input type="password" name="password" id="paswd" placeholder="Enter your password"><br><br>
+            <label id="pass">Confirm Password</label><br>
+            <input type="password" name="password" id="paswd" placeholder="Enter your password"><br><br>
+            <input type="submit" id="submit" value="Signup"><br><br>
+            <label onclick="login()" id="signup">Already have Account <span>Login!</span></label>
+            <script>
+                function login() {
+                    location.replace("index.html");
+                }
+            </script>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
